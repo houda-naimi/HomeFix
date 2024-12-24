@@ -1,0 +1,11 @@
+<resources>
+    <style name="CustomMenuItemTextStyle">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="CustomMenuItemIconStyle">
+        <item name="android:tint">#000000</item>
+    </style>
+</resources>
+

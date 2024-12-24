@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:background="@android:color/white">
+
+<TextView
+    android:id="@+id/textViewTitle"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Liste des Techniciens"
+    android:textColor="@android:color/white"
+    android:textSize="24sp"
+    android:textStyle="bold"
+    android:gravity="center"
+    android:background="#8A2BE2"
+    android:padding="16dp"
+    android:layout_marginBottom="8dp" />
+
+<androidx.recyclerview.widget.RecyclerView
+    android:id="@+id/recyclerViewTechnicians"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" />
+
+</LinearLayout>

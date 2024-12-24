@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="card_background">#FFFFFF</color>
+    <color name="text_primary">#000000</color>
+    <color name="text_secondary">#666666</color>
+    <color name="button_edit">#4CAF50</color>
+    <color name="button_delete">#F44336</color>
+    <color name="light_gray">#F5F5F5</color>
+    <color name="design_default_color_primary">#3F51B5</color>
+    <color name="gray">#808080</color>
+    <color name="green">#008000</color>
+    <color name="blue">#0000FF</color>
+    <color name="red">#FF0000</color>
+    <color name="yellow">#FFFF00</color>
+    <color name="navigation_bg">#2C3E50</color>
+    <color name="navigation_item_color">#ECF0F1</color>
+    <color name="navigation_item_icon_color">#F39C12</color>
+        <color name="colorPrimary">#3F51B5</color>
+        <color name="colorAccent">#FF4081</color>
+        <color name="colorGreen">#4CAF50</color>
+        <color name="colorGray">#9E9E9E</color>
+    <color name="title_color">#9C27B0</color>
+
+    <color name="category_color">#FF4081</color>
+    <color name="age_color">#3F51B5</color>
+    <color name="experience_color">#4CAF50</color>
+    <color name="phone_color">#FF9800</color>
+
+
+</resources>

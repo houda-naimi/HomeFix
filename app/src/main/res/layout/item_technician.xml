@@ -1,0 +1,102 @@
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="12dp"
+    app:cardCornerRadius="16dp"
+    app:cardElevation="8dp"
+    android:background="#F4F7F6">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+
+        <TextView
+            android:id="@+id/textViewTechnicianName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nom du technicien"
+            android:textStyle="bold"
+            android:textColor="#2C3E50"
+        android:textSize="20sp"
+        android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/textViewTechnicianCategory"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Catégorie : Plomberie"
+            android:textColor="#3498DB"
+        android:textSize="16sp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="4dp" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="8dp"
+            android:gravity="start"
+            android:layout_marginBottom="8dp">
+
+            <TextView
+                android:id="@+id/textViewTechnicianAge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Âge : 30 ans"
+                android:textColor="#7F8C8D"
+            android:layout_marginEnd="24dp" />
+
+            <TextView
+                android:id="@+id/textViewTechnicianExperience"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Expérience : 5 ans"
+                android:textColor="#7F8C8D" />
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/textViewTechnicianPhone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Téléphone : 123456789"
+            android:textColor="#7F8C8D"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="12dp"
+        android:textSize="16sp" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="end"
+            android:layout_marginTop="12dp">
+
+            <ImageButton
+                android:id="@+id/btnEditTechnician"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:src="@drawable/ic_edit"
+                android:contentDescription="Modifier"
+                android:background="?android:attr/selectableItemBackground"
+                app:tint="#1ABC9C"
+            android:layout_marginEnd="12dp" />
+
+            <ImageButton
+                android:id="@+id/btnDeleteTechnician"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:src="@drawable/ic_delete"
+                android:contentDescription="Supprimer"
+                android:background="?android:attr/selectableItemBackground"
+                app:tint="#E74C3C" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

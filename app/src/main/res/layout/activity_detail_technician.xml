@@ -1,0 +1,149 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_gris">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:layout_centerInParent="true"
+        app:cardCornerRadius="12dp"
+        app:cardElevation="6dp"
+        android:background="@color/white">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:padding="16dp">
+
+            <ImageView
+                android:id="@+id/detailTechnicianImage"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:src="@drawable/tech3"
+                android:layout_marginBottom="16dp"
+                android:scaleType="centerCrop"
+                android:background="@drawable/circle_background2" />
+
+
+            <TextView
+                android:id="@+id/detailTechnicianName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nom du technicien"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="8dp" />
+
+
+            <TextView
+                android:id="@+id/detailTechnicianCategory"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Catégorie :"
+                android:layout_marginBottom="8dp" />
+
+
+            <TextView
+                android:id="@+id/detailTechnicianPhone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Téléphone :"
+                android:textSize="16sp"
+                android:layout_marginBottom="12dp" />
+
+
+            <TextView
+                android:id="@+id/detailTechnicianAge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Âge :"
+                android:layout_marginBottom="8dp" />
+
+
+            <TextView
+                android:id="@+id/detailTechnicianExperience"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Expérience :"
+                android:layout_marginBottom="8dp" />
+
+
+            <TextView
+                android:id="@+id/detailTechnicianAddress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Adresse :"
+                android:layout_marginBottom="16dp" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_marginTop="16dp">
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_marginEnd="8dp">
+
+                    <ImageButton
+                        android:id="@+id/btnDetailCall"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:background="@android:color/transparent"
+                        android:src="@drawable/telephone2" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_marginStart="8dp">
+
+                    <ImageButton
+                        android:id="@+id/btnDetailMessage"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:background="@android:color/transparent"
+                        android:src="@drawable/msg2" />
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="16dp">
+
+
+            </LinearLayout>
+
+            <RatingBar
+                android:id="@+id/detailTechnicianRating"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:numStars="5"
+                android:stepSize="1"
+                android:layout_marginTop="16dp"
+                android:progressTint="#FFD700"
+                android:progressBackgroundTint="#BDBDBD"
+               />
+
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">HomeFix_Manager</string>
+    <string name="category_icon">Icône de la catégorie</string>
+    <string name="add_technician">Ajouter un technicien</string>
+    <string-array name="technician_categories">
+        <item>Plomberie</item>
+        <item>Électricité</item>
+        <item>Jardinage</item>
+        <item>Peinture</item>
+    </string-array>
+        <string name="open">Ouvrir</string>
+        <string name="close">Fermer</string>
+    <style name="ToolbarTitleTextStyle">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:letterSpacing">0.05</item>
+    </style>
+</resources>
